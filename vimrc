@@ -1,0 +1,32 @@
+set number
+syntax on
+set encoding=utf-8
+filetype indent on
+set autoindent
+set tabstop=4
+set shiftwidth=4
+set cursorline
+set textwidth=80
+set wrap
+set linebreak
+set wrapmargin=2
+set ruler
+set showmatch
+set hlsearch
+set incsearch
+set smartcase
+set spell spelllang=en_us
+set noerrorbells
+set visualbell
+set autoread
+set autowrite
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+Bundle 'gmarik/vundle'
+Bundle 'The-NERD-tree'     
+Bundle 'The-NERD-Commenter' 
+Bundle 'ctrlp.vim'           
+Bundle 'AutoClose'            
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'honza/vim-snippets'
+Bundle 'Lokaltog/vim-easymotion'
