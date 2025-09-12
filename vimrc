@@ -29,3 +29,6 @@ Bundle 'ctrlp.vim'
 Bundle 'AutoClose'            
 Bundle 'honza/vim-snippets'
 Bundle 'Lokaltog/vim-easymotion'
+
+map <F2> :NERDTreeToggle<CR>
+
