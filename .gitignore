@@ -4,3 +4,4 @@ bundle/*
 */.DS_Store
 *.bak
 *.bk
+.netrwhist
